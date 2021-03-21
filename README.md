@@ -1,2 +1,3 @@
 # QiitaのLGTMをGoogle検索結果に保存するやつ
-<img width=600 src="https://github.com/jojonki/insert-arxiv-comments-for-feedly/blob/master/images/screenshot.png?raw=true"/>
+Googleの検索結果にQiitaのLGTMの数が表示されちゃう．
+<img width=800 src="https://github.com/jojonki/vis-qiita-lgtm/blob/main/images/screenshot.png?raw=true"/>

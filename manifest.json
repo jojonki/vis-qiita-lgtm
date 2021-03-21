@@ -1,0 +1,35 @@
+{
+    "name": "Vis Qiita LGTM at google search",
+    "version": "0.1",
+    "description": "Insert Qiita LGTM to google search result",
+    "permissions": [
+        "activeTab",
+        "*://*.qiita.com/*",
+        "https://www.google.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js",
+            "jquery-3.4.1.min.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/*"
+            ],
+            "js": [
+                "content.js",
+                "jquery-3.4.1.min.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/icon_128.png",
+        "32": "images/icon_128.png",
+        "48": "images/icon_128.png",
+        "128": "images/icon_128.png"
+    },
+    "manifest_version": 2
+}

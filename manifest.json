@@ -1,7 +1,7 @@
 {
-    "name": "Vis Qiita LGTM at google search",
+    "name": "QiitaのLGTMをGoogle検索結果に保存するやつ",
     "version": "0.1",
-    "description": "Insert Qiita LGTM to google search result",
+    "description": "QiitaのLGTMをGoogle検索結果に保存するやつ",
     "permissions": [
         "*://*.qiita.com/*",
         "https://www.google.com/search*"
